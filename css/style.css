@@ -1,0 +1,73 @@
+body {
+
+    background-image: url(../imagens/6889305.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.space-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+    width: 360px;
+    height: 325px;
+    padding: 30px;
+    border-radius: 8px 2px 8px 2px;
+
+}
+
+.space-login form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login input {
+    margin-top: 10px;
+    background-color: yellow;
+    border: none;
+    height: 40px;
+    outline: none;
+    border-radius: 7px;
+    color: white;
+}
+
+.space-login img {
+    width: 60px;
+    height: auto;
+}
+
+input::placeholder {
+    color: white;
+    font-size: 14px;
+}
+
+form [type="submit"] {
+    display: block;
+    background-color: aqua;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p {
+    color: white;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+    margin-left: 5px;
+}
